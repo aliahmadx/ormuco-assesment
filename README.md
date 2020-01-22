@@ -2,7 +2,7 @@
 
 ## Goal
 
-Deploy a python application to EC2 instances using Ansible
+Deploy a python application using mysql to EC2 instances using Ansible
 
 ## How does it work ?
 
