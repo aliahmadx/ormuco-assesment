@@ -1,0 +1,12 @@
+instance_type: t2.micro
+count: 1 # number of EC2 instances
+security_group: webserver
+load_balancer: hello-lb
+image: ami-0623264feec62bfcf # Ubuntu 16.04
+keypair: ormuco # EC2 AWS key pair name
+region: us-east-1
+infra_tags:
+  app: hello
+  type: web
+app_name: hello
+user: app
