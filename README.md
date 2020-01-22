@@ -55,8 +55,4 @@ private_key_file = /Users/myself/key.pem
 make deploy
 make clean
 ```
-
-## What could be done better
-
-- Python application container should be built outside the target instances and pushed to a registry
-- Flask built-in appliction server is not production grade, should be replaced it with a compliant WSGI server
+Deploying ec2 instance through ansible code used from https://github.com/esys/ansible-python-ec2
